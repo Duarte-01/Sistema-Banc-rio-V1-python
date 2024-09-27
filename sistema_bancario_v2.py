@@ -203,7 +203,7 @@ def main(): #função principal do programa
             
         elif opcao == "exuser":
             cpf = input("Digite o cpf do usuário para o usuário ser excluido: ")
-            excluir_usuario(cpf, usuarios, contas)
+            excluir_usuario(cpf, usuarios)
         
 
         elif opcao == "q":
